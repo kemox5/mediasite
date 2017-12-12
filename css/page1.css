@@ -1,0 +1,253 @@
+.content .main{
+    color:#FFF;
+    margin-top:15px;
+    padding:15px;
+    background-color: #033f5b;
+}
+
+.content .main .title{
+    border-radius:7px;
+    font-weight: bold;
+    padding:10px 10px 10px 5px ;
+    background-color: #ec3642;
+    text-align: center;
+}
+
+.content .main .info{
+    margin-top:25px;
+}
+
+.content .main .info .description{
+    float:right;
+    width: 59%;
+}
+
+.content .main .info .description div{
+    line-height: 23px;
+    color:#FFF;
+    font-weight: bold;
+    border-radius:7px;
+    margin-top: 5px;
+    padding:5px 10px 5px 5px ;
+    background-color: #ec3642;
+}
+
+.content .main .info .description div span:first-of-type{
+    color:aquamarine;
+}
+
+.content .main .info .description div:nth-child(1){
+    max-height:90px;
+    overflow: auto;
+}
+
+.content .main .info .description div:nth-child(3){
+    max-height:90px;
+    overflow: auto;
+}
+
+.content .main .info .img{
+    text-align: center;
+    margin-top:5px;
+    float: left;
+    width: 40%;
+}
+
+.content .main .info .img div{
+    font-size:12px;
+    line-height: 23px;
+    color:#FFF;
+    font-weight: bold;
+    border-radius:7px;
+    padding:5px 10px 5px 5px ;
+    background-color: #ec3642;
+}
+
+.content .main .info .img .count span:first-of-type{
+    float:right;
+}
+
+
+
+.content .main .info .img .share{
+    margin-top: 5px;
+    padding:5px;
+}
+
+.content .main .info .img .share > span{
+    font-size: 25px;
+    float:right;
+    margin:5px 10px;
+}
+
+.content .main .info .img .share img{
+    width:35px;
+    height:35px;
+    vertical-align: middle;
+}
+
+.content .main .info .img img{
+    border-radius: 7px;
+    width: 100%;
+    height:379px;
+}
+
+
+
+.content .message{
+    margin:15px auto;
+    width: 500px;
+    color:#FFF;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+    padding:5px 10px 5px 10px ;
+    background-color: #ec3642;
+}
+
+.content .download{
+    text-align: center;
+}
+
+.content .download > div{
+    vertical-align: middle;
+    color:#FFF;
+    display: inline-block;
+    height:450px;
+    text-align: center;
+}
+
+.content .download > div:first-of-type{
+    background-color: #ec3642;
+    width:29%;
+}
+
+.content .download .middle{
+    width:39%;
+}
+
+.content .download .middle a{
+    color:#FFF;
+}
+
+
+.content .download .middle div:first-of-type{
+    background-color: #033f5b;
+    padding:20px;
+}
+
+.content .download .middle div:nth-child(2){
+    height:260px;
+    margin:5px 0px 5px;
+    background-color: #ec3642;
+}
+
+.content .download .middle div:last-of-type{
+    background-color: #033f5b;
+    padding:20px;
+}
+
+.content .download > div:last-of-type{
+    background-color: #ec3642;
+    width:29%;
+}
+
+.content .other{
+    padding:15px;
+    text-align: center;
+}
+
+.content .other a{
+    display: inline-block;
+    width:19.5%;
+    margin-top: 6px;
+    padding:0px;
+    height:230px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content .other a div img{
+    width: 100%;
+    height: 200px;
+}
+
+.content .other .title{
+    line-height: 22px;
+    position: absolute;
+    bottom:2px;
+    left:0px;
+    color:#FFF;
+    padding:2px;
+    background: black;
+    max-height: 25px;
+    min-height: 25px;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.content .other:hover .title{
+    max-height: 120px;
+    opacity:.9;
+}
+
+/* End content */
+
+
+
+/* start footer */
+
+.footer{
+    padding:15px 0px 45px 0px;
+    background-color:#033f5a;
+    color:#FFF;
+    position: relative;
+    z-index: 99;
+}
+
+.footer hr{
+    margin-top:50px;
+}
+
+.footer span{
+    color: #cccccc;
+}
+
+
+.footer .ad{
+    padding:7px;
+    width:500px;
+    margin: auto;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    background-color: #ec3642;
+    width:500px;
+    height:180px;
+    vertical-align: top;
+    float:right;
+}
+
+.footer .socialmedia{
+    font-weight:bold;
+    float:right;
+    text-align:center;
+    width:200px;
+    padding-top:30px;
+    vertical-align: top;
+}
+
+.footer .socialmedia img{
+    width:35px;
+    height:35px
+}
+
+.footer .logo{
+    margin-top:40px;
+    width:200px;
+    vertical-align: top;
+    text-align:center;
+    float:left;
+}
+/* end footer */
+

@@ -1,0 +1,287 @@
+/* Start Main Rules */
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body{
+    font-family:"Droid Arabic Kufi";
+}
+
+.container{
+    width:970px;
+    margin:auto;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color:#FFF;
+}
+/* End Main Rules */
+
+/* Start header */
+.header .topmenu{
+    font-size:13px;
+    background-color:#5c5c5c;
+    color:#FFF;
+    overflow:hidden;
+    font-weight: bold;
+}
+
+.header .topmenu ul{
+    margin:1px;
+    list-style:none;
+    padding:0;
+    overflow:hidden;
+    float:right;
+    height:35px;
+}
+
+.header .topmenu .socialmedia{   
+    margin-top: 3px;
+    vertical-align: middle;
+    float: left;
+}
+
+.header .topmenu .socialmedia img{
+    width:30px;
+    height:30px;
+}
+
+.header .topmenu ul li{
+    padding:5px 5px 2px 5px;
+    float:left;
+    height:37px;
+    border-left-style: solid;
+    border-width:1px;
+    border-color:7c7c7c;
+}
+
+.header .topmenu ul li a{
+    color:#FFF;
+}
+
+.header .topmenu ul li a:hover{
+    color:#2FCE74;
+}
+
+.header .slider{
+    height:265px;
+    background-image:url("../img/header.png");
+    background-size: cover;
+    z-index: 99;
+    position: relative;
+}
+
+
+/* start navbar */
+
+.header .navbar{
+    background-color:#03425e;
+    color:#FFF;
+    font-size:13px;
+    font-weight: bold;
+    z-index: 99;
+    position: relative;
+}
+
+.header .navbar ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.header .navbar .nav > li {
+    padding:7px 7px 2px 7px;
+    float:right;
+    border-left-style: solid;
+    border-width:1px;
+    border-color:#ec3642;
+    height:30px
+}
+
+.header .navbar .nav > li a{
+    color:#FFF;
+}
+
+.header .navbar .nav > li a:hover{
+    color:lightgreen;
+}
+
+.header .navbar .nav li:hover{
+    background-color: black;
+}
+
+
+
+.header .navbar .nav > li:hover .submenu{
+    display: block;
+}
+
+
+.header .navbar .nav .menu .submenu{
+    background-color:black;
+    position: absolute;
+    width: 200px;
+    margin-top:6px;
+    display: none;
+}
+
+
+.header .navbar .nav .menu .submenu li{
+    padding:5px;
+}
+
+.header .navbar .nav .menu .submenu li:hover{
+    color:white;
+}
+
+.header .navbar ul .home {
+    height: 30px;
+    width:35px;
+}
+
+
+.header .navbar .search{
+    float:left;
+    margin: 2px
+}
+
+.header .navbar .search input{
+    width:130px;
+    height:23px;
+    vertical-align: middle;
+    margin:1px 0px 1px -3px;
+}
+
+.header .navbar .search button{
+    text-align: center;
+    padding:2px; 
+    border: solid #FFF;
+    border-width:0px 1px 0px 1px;
+    background-color: red;
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.header .navbar .search button img{
+    width:25px;
+    height:100%;
+}
+
+.header .navbar:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* End header */
+
+/* Start Side AD */
+.side_ad{
+    margin-top:156px;
+    position:relative;
+}
+
+.side_ad > div{
+    position:absolute;
+}
+
+.side_ad > div > div {
+    width:120px;
+    height:600px;
+    background-color: red;
+}
+
+.side_right_ad{
+    float:right;
+    margin-right: -120px
+}
+
+.side_left_ad{
+    float:left;
+    margin-left:  0px;
+}
+/* End Side AD */
+
+/* Start content Rules */
+
+.content{
+    background-color:#eaeaea;
+    float:right;
+}
+
+.content .ad{
+    padding: 7px;
+    text-align: center;
+}
+
+.content .ad > div{
+    color:white;
+    font-weight: bold;
+    background-color: #ec3642;
+    width:470px;
+    height:128px;
+    display: inline-block;
+}
+
+/* End content Rules */
+
+
+/* Start Footer */
+
+.footer{
+    padding:15px 0px 45px 0px;
+    background-color:#033f5a;
+    color:#FFF;
+    position: relative;
+    z-index: 99;
+}
+
+.footer hr{
+    margin-top:50px;
+}
+
+.footer span{
+    color: #cccccc;
+}
+
+
+.footer .ad{
+    padding:7px;
+    width:500px;
+    margin: auto;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    background-color: #ec3642;
+    width:500px;
+    height:180px;
+    vertical-align: top;
+    float:right;
+}
+
+.footer .socialmedia{
+    font-weight:bold;
+    float:right;
+    text-align:center;
+    width:200px;
+    padding-top:30px;
+    vertical-align: top;
+}
+
+.footer .socialmedia img{
+    width:35px;
+    height:35px
+}
+
+.footer .logo{
+    margin-top:40px;
+    width:200px;
+    vertical-align: top;
+    text-align:center;
+    float:left;
+}
+/* End footer */
+

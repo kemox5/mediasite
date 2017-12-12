@@ -1,0 +1,129 @@
+
+
+.content .main{
+    color:#FFF;
+    margin-top:15px;
+    padding:20px 5px 20px 5px;
+    background-color: #033f5b;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content .main .left,
+.content .main .right{
+    width:20%;
+    display: inline-block;
+    background-color: #ec3642;
+    border-radius: 7px;
+}
+
+.content .main .download,
+.content .main .download2{
+    width:58%;
+    display: inline-block;
+}
+
+.content .main .download div:first-of-type,
+.content .main .download2 div:first-of-type{
+    width:100%;
+}
+
+.content .main .download > div{
+    margin-top: 3px;
+    width:49%;
+    border-radius: 7px;
+    background-color: #ec3642;
+    display: inline-block;
+}
+
+.content .main .download2 > div{
+    margin-top: 5px;
+    width:49.5%;
+    border-radius: 7px;
+    background-color: #ec3642;
+    display: inline-block;
+}
+
+.content .main .download2 > div:nth-child(2){
+    width:21%;
+}
+
+.content .main .download2 > div:nth-child(3){
+    width:78%;
+}
+
+.content .main .download2 .server{
+    background-color: #033f5b;
+    width:100%;
+}
+
+.content .main .download2 .server div{
+    border-radius: 7px;
+}
+
+.content .main .download2 .server .name{
+    width:21%;
+    float:right;
+    background-color: #ec3642;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content .main .download2 .server .links{
+    width:76.5%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content .main .download2 .server .links > div{
+    width:15%;
+    text-align: center;
+    background-color: #ec3642;
+    display: inline-block;
+    margin:1px;
+}
+
+.content .main .left,
+.content .main .right,
+.content .main .download,
+.content .main .download2{
+    vertical-align: middle;
+    margin-top: 15px;
+    height:450px;
+}
+
+
+.content .main .title{
+    border-radius:7px;
+    font-weight: bold;
+    padding:10px 5px 10px 5px ;
+    background-color: #ec3642;
+    text-align: center;
+}
+
+.content .message{
+    margin:15px auto;
+    width: 500px;
+    color:#FFF;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+    padding:5px 10px 5px 10px ;
+    background-color: #ec3642;
+}
+
+.content .player{
+    margin:15px auto;
+    width: 350px;
+    color:#FFF;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+    padding:5px 10px 5px 10px ;
+    background-color: #033f5b;
+}
+
+/* End content */
+
+
